@@ -11655,7 +11655,10 @@ readers do not read off random characters that represent icons */
   width: auto; }
 
 body {
-  background: #efeef1; }
+  box-sizing: border-box;
+  background: #efeef1;
+  margin: 0;
+  padding: 0; }
 
 .navbar {
   height: 46px; }
@@ -11753,5 +11756,15 @@ body {
       #contact ul a li {
         font-size: 28px;
         margin: 0 10px; }
+
+footer {
+  background: #3a3a48;
+  height: 100%; }
+  footer p {
+    font-size: 10px;
+    display: flex;
+    justify-content: center;
+    margin: auto auto;
+    padding: 10px 0; }
 
 /*# sourceMappingURL=style.css.map */
