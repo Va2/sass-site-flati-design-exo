@@ -11654,6 +11654,9 @@ readers do not read off random characters that represent icons */
   position: static;
   width: auto; }
 
+body {
+  background: #efeef1; }
+
 .navbar {
   height: 46px; }
   .navbar .nav a {
@@ -11689,29 +11692,47 @@ readers do not read off random characters that represent icons */
   .jumbotron span {
     font-weight: 700; }
 
-.card {
+#services .card {
   background: #e1dfdf;
   border: none; }
-  .card .card-title {
+  #services .card .card-title {
     text-transform: uppercase;
     font-size: 1rem; }
-  .card .card-subtitle {
+  #services .card .card-subtitle {
     color: #3497d0 !important;
     font-size: 0.9rem; }
-  .card .card-text {
+  #services .card .card-text {
     font-size: 0.9rem;
     color: #6c757d; }
-  .card i {
+  #services .card i {
     font-size: 2rem;
     background: #fff;
     width: 55px;
     height: 53px;
     border-radius: 50%; }
-  .card .fas {
+  #services .card .fas {
     margin: 0 auto;
     display: flex;
     justify-content: center;
     align-items: center;
     color: #495bbe; }
+
+#work .card {
+  border: none;
+  background: none;
+  min-width: 186px; }
+#work .left-card .card-title {
+  font-size: 1rem;
+  font-weight: 100; }
+#work .left-card .card-text {
+  font-size: 0.9rem; }
+#work .left-card .btn-primary {
+  background: #3497d0 !important;
+  border: none; }
+#work .right-card .card-body {
+  background: #3d4361 !important; }
+#work .right-card .card-title {
+  text-transform: uppercase;
+  font-size: 1rem; }
 
 /*# sourceMappingURL=style.css.map */
