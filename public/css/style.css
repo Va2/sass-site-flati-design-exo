@@ -11673,7 +11673,20 @@ readers do not read off random characters that represent icons */
 .nav-tabs {
   border-bottom: 0; }
 
-#bg-img {
-  height: 300px !important; }
+.jumbotron {
+  background: #e7e7de; }
+  .jumbotron p {
+    font-size: 23px; }
+    .jumbotron p .badge {
+      font-size: 100%;
+      font-weight: 400;
+      padding: 0.15em 0;
+      border-radius: 0; }
+    .jumbotron p .badge-primary {
+      background: #3497d0; }
+  .jumbotron strong {
+    color: #3497d0; }
+  .jumbotron span {
+    font-weight: 700; }
 
 /*# sourceMappingURL=style.css.map */
