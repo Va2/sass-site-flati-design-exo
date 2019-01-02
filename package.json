@@ -1,0 +1,25 @@
+{
+  "name": "sass-site-flati-design-exo",
+  "version": "1.0.0",
+  "description": "Bootstrap 4 | Sass | FontAwesome",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Va2/sass-site-flati-design-exo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Va2/sass-site-flati-design-exo/issues"
+  },
+  "homepage": "https://github.com/Va2/sass-site-flati-design-exo#readme",
+  "dependencies": {
+    "bootstrap": "^4.2.1"
+  },
+  "devDependencies": {
+    "@fortawesome/fontawesome-free": "^5.6.3"
+  }
+}
